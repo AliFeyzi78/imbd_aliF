@@ -1,9 +1,13 @@
 import React from "react";
+import "./Card.style.css"
+
 
 export const Card = () => {
     return (
-        <div ClassName="card-wrapper">
-            TEST
+        <div className="card-wrapper">
+            <p>
+                CARD
+            </p>
         </div>
     )
 }
