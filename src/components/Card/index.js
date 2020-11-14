@@ -1,13 +1,13 @@
 import React from "react";
-import "./Card.style.css"
+import { StyledCardWrapper, StyledText } from "./Card.style"
 
 
 export const Card = () => {
     return (
-        <div className="card-wrapper">
-            <p>
+        <StyledCardWrapper>
+            <StyledText>
                 CARD
-            </p>
-        </div>
+            </StyledText>
+        </StyledCardWrapper>
     )
 }
